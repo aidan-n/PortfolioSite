@@ -1,0 +1,118 @@
+.navbar {
+    height: 10%;
+}
+
+#logo {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    height: 5.5rem;
+}
+
+body {
+    padding-top: 70px;
+    overflow-x: hidden;
+}
+
+img[alt~="background"] {
+    width: 100%;
+}
+
+h3{
+     text-align: center;
+}
+
+.name {
+    position: fixed;
+    right: 20px;
+    top: -20px;
+    font-size: 1.7em;
+}
+
+.ninja {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: .9em;
+}
+
+.row {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+img[alt~="gitimage"] {
+    padding-left: 20px;
+}
+
+img[alt~="gitimagetwo"] {
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {}
+    #logo {
+        left: -10px;
+    }
+    .name {}
+    .ninja {}
+    .row {
+        width: 100%;
+        position: relative;
+        left: -90px;
+    }
+    p.gplay {
+        padding-top: 35px;
+    }
+    p.gitpone {
+        position: relative;
+        left: -20px;
+    }
+    img[alt~="gitimagetwo"] {
+        padding-left: 60px;
+    }
+    p.gitptwo {
+        position: relative;
+        padding-left: 22px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #logo {
+        left: 70px;
+    }
+    .name {
+        right: 145px;
+    }
+    .ninja {
+        right: 145px;
+    }
+    img[alt~="background"] {
+        padding-left: 140px;
+        padding-right: 144px;
+    }
+    img[alt~="gitimage"] {
+        padding-left: 130px;
+    }
+    img[alt~="gitimagetwo"] {}
+    p.gitpone {
+        width: 80%;
+        position: relative;
+        left: 50px;
+    }
+    p.gitptwo {
+        position: relative;
+        left: -25px;
+    }
+    p.gplay {
+        position: relative;
+        top: -20px;
+    }
+    img[alt~="gplayimg"] {
+        position: relative;
+        left: 40px;
+    }
+}
+
+
+/*add for each mediaquery only instead*/
